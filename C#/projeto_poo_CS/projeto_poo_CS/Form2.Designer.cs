@@ -81,6 +81,7 @@
             this.txt_quant.Name = "txt_quant";
             this.txt_quant.Size = new System.Drawing.Size(100, 20);
             this.txt_quant.TabIndex = 4;
+            this.txt_quant.TextChanged += new System.EventHandler(this.txt_quant_TextChanged);
             // 
             // txt_pay
             // 

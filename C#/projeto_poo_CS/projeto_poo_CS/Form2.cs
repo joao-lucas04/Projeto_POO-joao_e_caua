@@ -99,5 +99,10 @@ namespace projeto_poo_CS
             form_menu frm = new form_menu();
             frm.Show();
         }
+
+        private void txt_quant_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

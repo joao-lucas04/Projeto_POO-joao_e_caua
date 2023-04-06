@@ -10,25 +10,30 @@ using System.Windows.Forms;
 
 namespace projeto_poo_CS
 {
-    public partial class form_tabuadafor : Form
+    public partial class form_tabuadawhile : Form
     {
-        public form_tabuadafor()
+        public form_tabuadawhile()
         {
             InitializeComponent();
         }
 
         private void btn_cal_Click(object sender, EventArgs e)
         {
-            double num, R;
-            int i;
-          
+            int i = 1;
+            double X, num;
+
             num = Convert.ToDouble(txt_num.Text);
 
-            for (i = 0; i < 11; i++) 
+            while (i <= 10)
             {
-                R = num * i;
-                txt_tabu.Text = String.Concat(txt_tabu.Text, "\r\n", num.ToString() + "x" + i.ToString() + "=" + R.ToString());
+                X = num * i;
+
+                txt_tabu.Text = String.Concat(txt_tabu.Text, "\r\n", num.ToString() + "x" + i.ToString() + "=" + X.ToString());
+
+                i++;
             }
+
+
         }
 
         private void btn_lim_Click(object sender, EventArgs e)

@@ -31,8 +31,11 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.programasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.votaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.votaçãoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tabuadaComParaforToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tabuadaComWhileenquantoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tabuadaComDowhileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,7 +54,10 @@
             // 
             this.programasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.votaçãoToolStripMenuItem,
-            this.votaçãoToolStripMenuItem1});
+            this.votaçãoToolStripMenuItem1,
+            this.tabuadaComParaforToolStripMenuItem,
+            this.tabuadaComWhileenquantoToolStripMenuItem,
+            this.tabuadaComDowhileToolStripMenuItem});
             this.programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             this.programasToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.programasToolStripMenuItem.Text = "Programas -_-";
@@ -59,9 +65,23 @@
             // votaçãoToolStripMenuItem
             // 
             this.votaçãoToolStripMenuItem.Name = "votaçãoToolStripMenuItem";
-            this.votaçãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.votaçãoToolStripMenuItem.Size = new System.Drawing.Size(238, 22);
             this.votaçãoToolStripMenuItem.Text = "Posto do JL e CM";
             this.votaçãoToolStripMenuItem.Click += new System.EventHandler(this.votaçãoToolStripMenuItem_Click);
+            // 
+            // votaçãoToolStripMenuItem1
+            // 
+            this.votaçãoToolStripMenuItem1.Name = "votaçãoToolStripMenuItem1";
+            this.votaçãoToolStripMenuItem1.Size = new System.Drawing.Size(238, 22);
+            this.votaçãoToolStripMenuItem1.Text = "Votação";
+            this.votaçãoToolStripMenuItem1.Click += new System.EventHandler(this.votaçãoToolStripMenuItem1_Click);
+            // 
+            // tabuadaComParaforToolStripMenuItem
+            // 
+            this.tabuadaComParaforToolStripMenuItem.Name = "tabuadaComParaforToolStripMenuItem";
+            this.tabuadaComParaforToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.tabuadaComParaforToolStripMenuItem.Text = "Tabuada com para ";
+            this.tabuadaComParaforToolStripMenuItem.Click += new System.EventHandler(this.tabuadaComParaforToolStripMenuItem_Click);
             // 
             // sairToolStripMenuItem
             // 
@@ -70,12 +90,19 @@
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
-            // votaçãoToolStripMenuItem1
+            // tabuadaComWhileenquantoToolStripMenuItem
             // 
-            this.votaçãoToolStripMenuItem1.Name = "votaçãoToolStripMenuItem1";
-            this.votaçãoToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.votaçãoToolStripMenuItem1.Text = "Votação";
-            this.votaçãoToolStripMenuItem1.Click += new System.EventHandler(this.votaçãoToolStripMenuItem1_Click);
+            this.tabuadaComWhileenquantoToolStripMenuItem.Name = "tabuadaComWhileenquantoToolStripMenuItem";
+            this.tabuadaComWhileenquantoToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.tabuadaComWhileenquantoToolStripMenuItem.Text = "Tabuada com while";
+            this.tabuadaComWhileenquantoToolStripMenuItem.Click += new System.EventHandler(this.tabuadaComWhileenquantoToolStripMenuItem_Click);
+            // 
+            // tabuadaComDowhileToolStripMenuItem
+            // 
+            this.tabuadaComDowhileToolStripMenuItem.Name = "tabuadaComDowhileToolStripMenuItem";
+            this.tabuadaComDowhileToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.tabuadaComDowhileToolStripMenuItem.Text = "Tabuada com do-while";
+            this.tabuadaComDowhileToolStripMenuItem.Click += new System.EventHandler(this.tabuadaComDowhileToolStripMenuItem_Click);
             // 
             // form_menu
             // 
@@ -101,6 +128,9 @@
         private System.Windows.Forms.ToolStripMenuItem votaçãoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem votaçãoToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem tabuadaComParaforToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tabuadaComWhileenquantoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tabuadaComDowhileToolStripMenuItem;
     }
 }
 
