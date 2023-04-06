@@ -1,13 +1,13 @@
 algoritmo "Tabuada"
-// Função : cacular a tabuada de 1 há 10, um número qualquer
-// Autor : JL e Cauã Magalhâes
+// FunÃ§Ã£o : cacular a tabuada de 1 hÃ¡ 10, um nÃºmero qualquer
+// Autor : JL e CauÃ£ MagalhÃ¢es
 // Data : 22/03/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 i:inteiro
 X,num:real
 inicio
-escreva("Digite um número: ")
+escreva("Digite um nÃºmero: ")
 leia(num)
  para i de 0 ate 10 faca
  X:=num*i
