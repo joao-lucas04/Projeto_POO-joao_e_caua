@@ -48,7 +48,7 @@ namespace projeto_poo_CS
 
             VG = VM + VJT + VJS;
 
-            if (VJS > VM)
+            if (VJS > VM & VJS>VJT)
             {
                 R = (VJS / VG)*100;
                 R1 = Convert.ToInt32(Math.Floor(R));
